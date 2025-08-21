@@ -1,0 +1,24 @@
+textarea {
+    border: 1px solid $soft-beige;
+    color: $soft-beige;
+    background-color: transparent;
+    font-size: 1rem;
+    height: 100px;
+    outline: none;
+    padding: 10px;
+    font-family: 'Parisienne', sans-serif;
+
+}
+
+.select-element {
+    border: 1px solid $soft-beige;
+    font-size: 1rem;
+    width: 100%;
+    border-radius: 3px;
+    overflow: hidden;
+    background-color: transparent;
+    outline: none;
+    color: $soft-beige;
+    font-family: 'Parisienne', sans-serif;
+
+}

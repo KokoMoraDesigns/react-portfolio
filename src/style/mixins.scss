@@ -1,0 +1,51 @@
+@mixin base-btn {
+    cursor: pointer;
+    height: 42px;
+    font-size: 1em;
+    font-weight: 500;
+    border: 1px solid transparent;
+    transition: all 0.5s ease-in-out;
+    background-color: $soft-beige;
+    color: $dark-pink;
+
+    &:active, &:focus {
+
+        outline: none;
+
+    }
+
+    &:hover {
+        background-color: $soft-pink;
+        color: $soft-beige;
+    }
+}
+
+@mixin input-element {
+    input{
+        font-family: "Parisienne", sans-serif;
+        color: $soft-beige;
+        padding: 5px 0px;
+        width: 100%;
+        border-top: 0px;
+        border-right: 0px;
+        border-left: 0px;
+        border-bottom: 1px solid $soft-beige;
+        background-color: transparent;
+        transition: 0.5s all ease-in-out;
+        font-size: 1.1em;
+        margin-bottom: 21px;
+
+        &:focus {
+            outline: none;
+            border-bottom: 1px solid $soft-beige;
+            background-color: $dark-pink;
+            
+        }
+    }
+}
+
+
+@mixin base-grid() {
+    display: grid;
+    grid-gap: 21px;
+}

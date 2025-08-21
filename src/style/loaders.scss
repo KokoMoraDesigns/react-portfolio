@@ -1,0 +1,20 @@
+.content-loader {
+    font-size: 2em;
+    color: $soft-pink;
+
+    .spinner {
+        animation: circle 1.4s steps(8) infinite;
+    }
+
+    @keyframes circle {
+        from {
+            transform: rotate(90deg);
+        }
+    
+        to {
+            transform: rotate(450deg);
+        }
+    }
+}
+
+
