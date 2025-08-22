@@ -29,6 +29,12 @@
                     color: pink;
                     margin-right: 16px;
                 }
+
+                input {
+                    &::placeholder {
+                        color: $soft-beige;
+                    }
+                }
             }
         }
     }
